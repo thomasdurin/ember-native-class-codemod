@@ -5,7 +5,7 @@ const { replaceEmberObjectExpressions } = require('../helpers/parse-helper');
 const DEFAULT_OPTIONS = {
   decorators: true,
   classFields: true,
-  classicDecorator: true,
+  classicDecorator: false,
   quote: 'single',
 };
 
